@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <script src="/js/jquery-3.3.1.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <title>Recetas Venezolanas</title>
+  </head>
+    <body>
+        <!--inicio navbar-->
+        
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(113, 201, 63);">
+                <div class="container">      
+              <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt="" class="img-fluid" width="30" height="30"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">INICIO <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/recetas.html">RECETAS</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/pages/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
+            
+        </div>
+        <!--fin navbar-->
+        <!-- titulo-->
+        <div class="container ">
+            <div class="row mx-0 justify-content-center">
+                <h1 class="my-0"> Contacto</h1>
+              </div>
+              <hr class="featurette-divider">
+        </div>
+        <!--fin titulo-->  
+
+        <section class="container">
+            <form>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombrefield"  placeholder="Nombres">
+                    
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="apellidos">Apellidos</label>
+                      <input type="text" class="form-control" id="apellidosfield"  placeholder="Apellidos">
+                    
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="emailfield" placeholder="Enter email">
+                  
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">Comentarios</label>
+                    <textarea class="form-control" id="comentariostext" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-danger d-flex justify-content-center">Enviar</button>
+                </div>
+              </form>
+        </section>
+      
+      
+      </body>
+        </html>
+        
